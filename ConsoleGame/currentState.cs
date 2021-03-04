@@ -1,4 +1,4 @@
-﻿namespace Player_e_Inimigo_2
+﻿namespace ConsoleGame
 {
     internal class currentState
     {

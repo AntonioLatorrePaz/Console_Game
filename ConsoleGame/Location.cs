@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Player_e_Inimigo_2
+namespace ConsoleGame
 {
     class Location
     {
@@ -10,6 +10,7 @@ namespace Player_e_Inimigo_2
         protected string description;
         protected char input;
         protected int payValue;
+
         public string Name
         {
             get
@@ -17,7 +18,7 @@ namespace Player_e_Inimigo_2
                 return name;
             }
         }
-       
+
         public string Description
         {
             get
@@ -40,10 +41,5 @@ namespace Player_e_Inimigo_2
                 return payValue;
             }
         }
-
-
-
-
-
     }
 }
